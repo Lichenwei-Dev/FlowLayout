@@ -8,9 +8,84 @@
 
 
     <com.lcw.view.flowlayout.FlowLayout
-        android:id="@+id/fl_main_tags"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"/>
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="欧美影视"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="婚姻育儿"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="散文"
+            android:textColor="@color/colorAccent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="程序员"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="大学生"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="运营互助帮"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="设计"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="读书"
+            android:textColor="@color/colorAccent" />
+
+    </com.lcw.view.flowlayout.FlowLayout>
+
 
 </LinearLayout>
