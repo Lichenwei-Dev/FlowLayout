@@ -3,8 +3,10 @@ package com.lcw.view.flowlayout;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,14 +53,14 @@ public class FlowLayout extends ViewGroup {
 
         //获取测量的模式和尺寸大小
         int widthMode = MeasureSpec.getMode(widthMeasureSpec);
-        int widthSize = MeasureSpec.getSize(widthMeasureSpec);
+        int widthSize = MeasureSpec.getSize(widthMeasureSpec)-getPaddingLeft()-getPaddingRight();
         int heightMode = MeasureSpec.getMode(heightMeasureSpec);
-        int heightSize = MeasureSpec.getSize(heightMeasureSpec);
+        int heightSize = MeasureSpec.getSize(heightMeasureSpec)+getPaddingTop()+getPaddingBottom();
 
 
         //记录ViewGroup真实的测量宽高
-        int viewGroupWidth = 0;
-        int viewGroupHeight = 0;
+        int viewGroupWidth = 0-getPaddingLeft()-getPaddingRight();
+        int viewGroupHeight = getPaddingTop()+getPaddingBottom();
 
         if (widthMode == MeasureSpec.EXACTLY && heightMode == MeasureSpec.EXACTLY) {
             viewGroupWidth = widthSize;
@@ -136,9 +138,8 @@ public class FlowLayout extends ViewGroup {
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
 
-
-        int left = 0;
-        int top = 0;
+        int left = getPaddingLeft();
+        int top = getPaddingTop();
         //一共有几行
         int lines = mLineViews.size();
         for (int i = 0; i < lines; i++) {
@@ -158,7 +159,7 @@ public class FlowLayout extends ViewGroup {
                 view.layout(vl, vt, vr, vb);
                 left += view.getMeasuredWidth() + marginLayoutParams.leftMargin + marginLayoutParams.rightMargin;
             }
-            left = 0;
+            left = getPaddingLeft();
             top += lineHeight;
 
         }
@@ -176,4 +177,5 @@ public class FlowLayout extends ViewGroup {
     public LayoutParams generateLayoutParams(AttributeSet attrs) {
         return new MarginLayoutParams(getContext(), attrs);
     }
+
 }

@@ -3,12 +3,39 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_822c64b0821c8c31b702af613ba1515804b078e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_c7de251549e5345e33bdb3ccc1159ac179cc59cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\Dev\Git\LiuShiBuJu\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
         <dex dex="D:\Dev\Git\LiuShiBuJu\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_81154e690c89f5dd3875ba9825dd1cc2e55e7cdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_7ed35bb37b79072a90872c16e7613724a97f9ba7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,6 +84,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_7d4c4f5c4d23dba0e3e100e2fcbc3eaa0e699842.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_ba588e1d9d1a40b82cd120adf56f1200bc29d923.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\Dev\Git\LiuShiBuJu\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -66,12 +111,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\Dev\Git\LiuShiBuJu\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jar="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="D:\Dev\Git\LiuShiBuJu\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_ef9badfddad31d2377efacfddb7ffcd286d158e3.jar" />
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_56d8ff90c54e857d15ddb30b190b3aed5b69538d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,12 +129,48 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\Dev\Git\LiuShiBuJu\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Dev\Git\LiuShiBuJu\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_ef9badfddad31d2377efacfddb7ffcd286d158e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_c110f1c43d54627620ed58e29b5e553a16acb8e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\Dev\Git\LiuShiBuJu\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
         <dex dex="D:\Dev\Git\LiuShiBuJu\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_b73302e8e000922b5180ba5c7822869d835c981c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_759c446b4d6f4d5d24af084adf71b30a3bc452c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Rabbit\Desktop\liushibuju\FlowLayout\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_1ad590ce1d30d68d65e869524b18d1250da7c0cf.jar" />
     </item>
 
 </items>
