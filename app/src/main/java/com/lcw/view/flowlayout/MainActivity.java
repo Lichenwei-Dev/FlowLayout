@@ -12,9 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        FlowLayout flowLayout= (FlowLayout) findViewById(R.id.fl_main_tags);
-        List<String> tagList= Arrays.asList("中国","日本","法国","美国","泰国","印度尼西亚","菲律宾","雅典");
-        flowLayout.addFlowLayoutTag(tagList,R.layout.item_flowlayout_tv);
 
     }
 }
