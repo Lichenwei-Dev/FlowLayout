@@ -100,6 +100,7 @@ public class FlowLayout extends ViewGroup {
                     //当前行宽+子View+左右外边距<=ViewGroup的宽度,不换行
                     currentLineWidth += childViewWidth;
                     currentLineHeight = Math.max(currentLineHeight, childViewHeight);
+                    viewGroupWidth = Math.max(currentLineWidth, viewGroupWidth);
                     //添加行对象里的子View
                     lineView.add(childView);
                 }
@@ -109,7 +110,6 @@ public class FlowLayout extends ViewGroup {
                     //最后一个子View的时候
                     //添加行对象
                     mLineViews.add(lineView);
-                    viewGroupWidth = Math.max(childViewWidth, viewGroupWidth);
                     viewGroupHeight += childViewHeight;
                     //添加行高
                     mLineHeight.add(currentLineHeight);
